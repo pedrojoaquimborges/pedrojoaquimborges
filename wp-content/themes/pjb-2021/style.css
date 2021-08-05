@@ -82,12 +82,12 @@ a {color: #000000;}
 	position: absolute;
 	border-bottom: #b9b9b9 1px solid;
 }
-.topspacer {height:29%;}
-.headermargin {padding-left:2rem;}
+.topspacer {height:13.5rem}
+.headermargin {padding-left:3.3rem;}
 .logo {
 	font-size: 0.9em;
 	letter-spacing: -0.05em;
-	transition: 0.2s;
+	transition: 0.5s;
 	font-weight: 600;
 	line-height: 1em;
 	position: absolute;
@@ -99,22 +99,22 @@ a {color: #000000;}
 
 .logo:hover {
 	font-style: italic;
-	letter-spacing: 0.05em;
-	transform: translateX(-1em);
+	letter-spacing: 0.02em;
+	transform: translateX(-0.7em);
 }
 
 .headerlink {
 	font-size: 0.6em;
 	position: absolute;
 	text-transform: uppercase;
-	letter-spacing: -0.05em;
-	font-weight: 700;
+	letter-spacing: -0.07em;
+	font-weight: 600;
 	left: 3.3%;
 	bottom: 1.1rem;
 	line-height: 1rem;
 }
 .feattext {
-	font-size: 6.8rem;
+	font-size: calc(5rem + 1.875vw);
 	z-index: 80;
 	cursor: default;
 	letter-spacing: -0.06em;
@@ -127,10 +127,10 @@ a {color: #000000;}
 	margin-bottom: .5rem;
 }
 .feattext2 {
-	font-size: 6.8rem;
+	font-size: calc(5rem + 1.875vw);
 	z-index: 80;
 	cursor: default;
-	letter-spacing: -0.06em;
+	letter-spacing: -0.05em;
 	font-weight: 600;
 	line-height: 1.15em;
 	width: 82vw;
@@ -142,8 +142,8 @@ a {color: #000000;}
 	line-height: 1.6em;
 	transition: 0.2s;
 	width: 27em;
-	font-size: 1.2rem;
-	letter-spacing: -0.05em;
+	font-size: calc(1rem + 0.21vw);
+	letter-spacing: -0.06em;
 	color: black;
 	opacity: 0.9;
 	font-weight: 400;
@@ -153,8 +153,8 @@ a {color: #000000;}
 	line-height: 1.6em;
 	transition: 0.2s;
 	width: 27em;
-	font-size: 1.2rem;
-	letter-spacing: -0.04em;
+	font-size: calc(1rem + 0.21vw);
+	letter-spacing: -0.06em;
 	color: black;
 	opacity: 0.9;
 	font-weight: 400;
@@ -218,12 +218,12 @@ h6 {
 	font-weight: 700;
 }
 .p1 {
-	font-size: 1.2rem;
+	font-size: calc(1rem + 0.209vw);
 	letter-spacing: -0.03em;
 	line-height: 1.5em;
 }
 .p2 {
-	font-size: 1.6rem;
+	font-size: calc(1rem + 0.5vw);
 	line-height: 1.425em;
 	font-weight: 400;
 	letter-spacing: -0.03em;
@@ -242,7 +242,7 @@ h6 {
 	font-weight: 600;
 }
 .p5 {
-	font-size: 4.5rem;
+	font-size: calc(2.5rem + 2.09vw);
 	line-height: 1.1em;
 	letter-spacing: -0.05em;
 	font-family: 'BananaGrotesk-Semibold', sans-serif;
@@ -266,7 +266,7 @@ h6 {
 	background-image: url('/wp-content/themes/pjb-2021/assets/img/noise.gif)');
 }
 .shopdesc {
-	font-size: 1em;
+	font-size: calc(0.8rem + 0.209vw);
 	font-weight: 400;
 	color: #1b1b1b;
 	line-height: 1.2em;
@@ -298,7 +298,7 @@ h6 {
 	opacity:1;
 }
 .shopimg:hover { 
-	opacity:0.9;
+	opacity:0.7;
 }
 .shopprod {
 	font-weight: 700;
@@ -429,7 +429,7 @@ to {
 	border-radius: 1em;
 	font-weight: 400;
 	text-transform: uppercase;
-	font-size: 0.9em;
+	font-size: calc(12px + 0.158vw);
 	letter-spacing: -0.03em;
 }
 a.button {text-decoration:none;}
@@ -502,7 +502,6 @@ a.orange:hover {color:#878787;}
 .padding1 {margin-left: 4.2rem;}
 .white {color:white;}
 .ltsp-sm {letter-spacing:-0.04em;}
-.vhmobile {height:100vh;}
 .trackcont {background-color: #f5f5f5;}
 .track {
 	height: 145.5px;
@@ -522,17 +521,13 @@ a.orange:hover {color:#878787;}
 .track2 {
 	background-image: url('/wp-content/themes/pjb-2021/assets/img/tracks2.png');
 	background-position: center;
-	animation: trackanim1 100s linear 0s infinite normal;
+	animation: trackanim 100s linear 0s infinite reverse;
 }
 
 
 @keyframes trackanim {
 0% {transform: translateX(0);}
 100% {transform: translateX(-40%);}
-}
-@keyframes trackanim1 {
-0% {transform: translateX(0);}
-100% {transform: translateX(-30%);}
 }
 @keyframes bganim {
 0% {transform: translate3d(0,0,0) rotate(25deg);}
@@ -573,7 +568,9 @@ a.orange:hover {color:#878787;}
 .hiddenemail:focus::after {
 	content:'pedrojoaquimborges.com';
 }
-
+.wp-block-column {
+	flex-basis: 100% !important;
+}
 	
 
 
@@ -657,8 +654,8 @@ a.orange:hover {color:#878787;}
 	line-height: 1.5em;
 	transition: 0.2s;
 	width: 72.1%;
-	font-size: 1rem;
-	letter-spacing: -0.04em;
+	font-size: 0.9rem;
+	letter-spacing: -0.06em;
 	color: black;
 	opacity: 0.9;
 	font-weight: 400;
@@ -675,6 +672,10 @@ a.orange:hover {color:#878787;}
 	left: 1.6rem;
 	top: 2rem;
 	margin: 0;
+}
+.logo:hover {
+	letter-spacing: 0.00em;
+	transform: translateX(-0);
 }
 .menugif {
 	margin: 0;
@@ -707,6 +708,7 @@ h2 {
 	letter-spacing: -0.05em;
 }
 h5 {font-size:0.7em;}
+.p1 {font-size: 1.2rem;}
 .p2 {font-size: 1.2rem; line-height:1.45em;}
 .p3 {font-size:1.5rem;}
 .bordertop-md {border-top: black 0px solid;}
@@ -764,6 +766,9 @@ h5 {font-size:0.7em;}
 	line-height: 1.45em;
 }
 .graybg-sm { background-image: url('/wp-content/themes/pjb-2021/assets/img/noise.gif)');}
+.wp-block-column {
+	flex-basis: 100% !important;
+}
 
 
 
