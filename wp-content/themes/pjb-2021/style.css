@@ -27,10 +27,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
   font-family: 'BananaGrotesk-Semibold';
   src: url('/wp-content/themes/pjb-2021/fonts/bananagrotesk-semibold-webfont.woff2') format('woff2');
 }
-  
-html,body {
-	background-color:#F4F4F3;
-}
 
 body {
 	margin: 0;
