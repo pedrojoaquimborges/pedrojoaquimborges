@@ -447,6 +447,7 @@ a.button {text-decoration:none;}
 .whitebg {background-color:white;}
 .blackbg {background-color: #1A1A1A;}
 .graytext {color: #636363;}
+.graytext a:link, .graytext a {color: #636363;}
 .gradbg1 {
 	background: linear-gradient(90deg, rgb(24, 12, 11) 0%, rgb(14, 14, 14) 100%);
 }
