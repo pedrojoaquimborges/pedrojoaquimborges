@@ -443,7 +443,7 @@ a.button {text-decoration:none;}
 	border: 1px solid #FD3F29;
 }
 .btnmenu {display:inline-block;}
-.graybg { background-image: url('assets/img/noise.gif)');}
+.graybg { background-image: url('assets/img/noise.gif');}
 .whitebg {background-color:white;}
 .blackbg {background-color: #1A1A1A;}
 .graytext {color: #636363;}
@@ -762,7 +762,7 @@ h5 {font-size:0.7em;}
 	font-size: 0.9rem;
 	line-height: 1.45em;
 }
-.graybg-sm { background-image: url('assets/img/noise.gif)');}
+.graybg-sm { background-image: url('assets/img/noise.gif');}
 .wp-block-column {
 	flex-basis: 100% !important;
 }
