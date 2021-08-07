@@ -135,7 +135,7 @@ a {color: #000000;}
 	margin-bottom: .5rem;
 }
 .aboutoverlay {
-	line-height: 1.6em;
+	line-height: 1.45em;
 	transition: 0.2s;
 	width: 27em;
 	font-size: calc(1rem + 0.21vw);
@@ -538,14 +538,14 @@ a.orange:hover {color:#878787;}
 .zindtop2 {z-index:99;}
 .bganim {
 	position: absolute;
-	top: -85vh;
+	top: -80vh;
 	left: -10vh;
 	width: 439.454vw;
 	height: 91.553vw;
 	background-image: url('/wp-content/themes/pjb-2021/assets/img/waveform7.png');
 	background-size: 100%;
 	background-position: 0% 0%;
-	animation: bganim 170s infinite 0s cubic-bezier(.76,.82,.85,1) alternate;
+	animation: bganim 200s infinite 0s cubic-bezier(.76,.82,.85,1) alternate;
 	z-index: 80;
 	background-repeat: no-repeat;
 	transform-origin: left;
@@ -619,7 +619,6 @@ a.orange:hover {color:#878787;}
 	font-size: 2.5rem;
 	z-index: 80;
 	letter-spacing: -0.07em;
-	/* font-weight: 600; */
 	line-height: 1.15em;
 	width: 82vw;
 	margin-bottom: .5rem;
@@ -630,10 +629,10 @@ a.orange:hover {color:#878787;}
 	font-size: 2.2rem;
 	z-index: 80;
 	letter-spacing: -0.07em;
-	font-weight: 600;
 	line-height: 1.15em;
 	width: 82vw;
 	margin-bottom: .5rem;
+	font-family: 'BananaGrotesk-Semibold';
 }
 .aboutoverlay {
 	line-height: 1.5em;
@@ -651,7 +650,7 @@ a.orange:hover {color:#878787;}
 	line-height: 1.5em;
 	transition: 0.2s;
 	width: 72.1%;
-	font-size: 0.9rem;
+	font-size: 1rem;
 	letter-spacing: -0.06em;
 	color: black;
 	opacity: 0.9;
@@ -698,6 +697,7 @@ a.orange:hover {color:#878787;}
 }
 h1 {
 	font-size: 0.8rem;
+	letter-spacing: -0.02em;
 }
 h2 {
 	font-size: 0.9rem;
@@ -720,7 +720,7 @@ h5 {font-size:0.7em;}
 }
 .p4 {font-size:0.8rem;line-height:1.4em;}
 .p7 {line-height:1.4em;font-size:0.8rem;}
-.shoplabel1 {padding-top: 1rem;line-height:1.4em;}
+.shoplabel1 {padding-top: 0.9rem;line-height:1.4em;}
 .shopprod {	
 	padding-top: 0;
 	padding-bottom: 0;
@@ -734,8 +734,9 @@ h5 {font-size:0.7em;}
 .button {
 	font-weight: 400;
 	font-size: 0.8em;
-	letter-spacing: -0.06em;
+	letter-spacing: -0.04em;
 }
+
 .track {height:80px;}
 .posttext p,.posttext ul {font-size:1rem;}
 .postimg {
@@ -745,13 +746,12 @@ h5 {font-size:0.7em;}
 	transition: 0.2s;
 }
 .bganim {
-	top: -15vh;
+	top: -14vh;
 	left: -30vw;
 	width: 1000vw;
 	height: 208.33vw;
-	background-size: 90%;
+	background-size: 100%;
 	animation: bganimmobile 170s infinite 0s cubic-bezier(.76,.82,.85,1) alternate;
-
 }
 .footerbio {
 	font-size: 1rem;
