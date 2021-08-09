@@ -17,15 +17,15 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 @font-face {
   font-family: 'BananaGrotesk-Regular';
-  src: url('/wp-content/themes/pjb-2021/fonts/bananagrotesk-regular-webfont.woff2') format('woff2');
+  src: url('https://pedrojoaquimborges.com/wp-content/themes/pjb-2021/fonts/bananagrotesk-regular-webfont.woff2') format('woff2');
 }
 @font-face {
   font-family: 'BananaGrotesk-Medium';
-  src: url('/wp-content/themes/pjb-2021/fonts/bananagrotesk-medium-webfont.woff2') format('woff2');
+  src: url('https://pedrojoaquimborges.com/wp-content/themes/pjb-2021/fonts/bananagrotesk-medium-webfont.woff2') format('woff2');
 }
 @font-face {
   font-family: 'BananaGrotesk-Semibold';
-  src: url('/wp-content/themes/pjb-2021/fonts/bananagrotesk-semibold-webfont.woff2') format('woff2');
+  src: url('https://pedrojoaquimborges.com/wp-content/themes/pjb-2021/fonts/bananagrotesk-semibold-webfont.woff2') format('woff2');
 }
 
 body {
@@ -53,7 +53,7 @@ ul {
 .featured {
 	background-color: white;
 	position: relative;
-	background-image: url('/wp-content/themes/pjb-2021/assets/img/noise.gif');
+	background-image: url('https://pedrojoaquimborges.com/wp-content/themes/pjb-2021/assets/img/noise.gif');
 }
 
 a:hover {color: #FD3F29;}
@@ -65,7 +65,7 @@ a {color: #000000;}
 	bottom: 0;
 	width: 100vh;
 	height: 3.3rem;
-	background-image: url('/wp-content/themes/pjb-2021/assets/img/noise.gif');
+	background-image: url('https://pedrojoaquimborges.com/wp-content/themes/pjb-2021/assets/img/noise.gif');
 	position: fixed;
 	margin: 0;
 	transform: rotate(-90deg);
@@ -157,7 +157,7 @@ a {color: #000000;}
 }
 .menugif {
 	position: absolute;
-	background: url('/wp-content/themes/pjb-2021/assets/img/avatar.gif') no-repeat;
+	background: url('https://pedrojoaquimborges.com/wp-content/themes/pjb-2021/assets/img/avatar.gif') no-repeat;
 	background-size: cover;
 	height: 1rem;
 	width: 1rem;
@@ -259,7 +259,7 @@ h6 {
 	background-color: #101010;
 }
 .posttoptitlecont {
-	background-image: url('/wp-content/themes/pjb-2021/assets/img/noise.gif)');
+	background-image: url('https://pedrojoaquimborges.com/wp-content/themes/pjb-2021/assets/img/noise.gif)');
 }
 .shopdesc {
 	font-size: calc(0.8rem + 0.209vw);
@@ -443,7 +443,7 @@ a.button {text-decoration:none;}
 	border: 1px solid #FD3F29;
 }
 .btnmenu {display:inline-block;}
-.graybg { background-image: url('/wp-content/themes/pjb-2021/assets/img/noise.gif');}
+.graybg { background-image: url('https://pedrojoaquimborges.com/wp-content/themes/pjb-2021/assets/img/noise.gif');}
 .whitebg {background-color:white;}
 .blackbg {background-color: #1A1A1A;}
 .graytext {color: #636363;}
@@ -511,12 +511,12 @@ a.orange:hover {color:#878787;}
 	filter: saturate(0);
 }
 .track1 {
-	background-image: url('/wp-content/themes/pjb-2021/assets/img/tracks1.png');
+	background-image: url('https://pedrojoaquimborges.com/wp-content/themes/pjb-2021/assets/img/tracks1.png');
 	background-position: left;
 	animation: trackanim 100s linear 0s infinite normal;
 }
 .track2 {
-	background-image: url('/wp-content/themes/pjb-2021/assets/img/tracks2.png');
+	background-image: url('https://pedrojoaquimborges.com/wp-content/themes/pjb-2021/assets/img/tracks2.png');
 	background-position: center;
 	animation: trackanim 100s linear 0s infinite reverse;
 }
@@ -542,7 +542,7 @@ a.orange:hover {color:#878787;}
 	left: -10vh;
 	width: 439.454vw;
 	height: 91.553vw;
-	background-image: url('/wp-content/themes/pjb-2021/assets/img/waveform7.png');
+	background-image: url('https://pedrojoaquimborges.com/wp-content/themes/pjb-2021/assets/img/waveform7.png');
 	background-size: 100%;
 	background-position: 0% 0%;
 	animation: bganim 200s infinite 0s cubic-bezier(.76,.82,.85,1) alternate;
@@ -750,7 +750,7 @@ h5 {font-size:0.7em;}
 	left: -30vw;
 	width: 1000vw;
 	height: 208.33vw;
-	background-size: 100%;
+	background-size: 95%;
 	animation: bganimmobile 170s infinite 0s cubic-bezier(.76,.82,.85,1) alternate;
 }
 .footerbio {
@@ -762,7 +762,7 @@ h5 {font-size:0.7em;}
 	font-size: 0.9rem;
 	line-height: 1.45em;
 }
-.graybg-sm { background-image: url('/wp-content/themes/pjb-2021/assets/img/noise.gif');}
+.graybg-sm { background-image: url('https://pedrojoaquimborges.com/wp-content/themes/pjb-2021/assets/img/noise.gif');}
 .wp-block-column {
 	flex-basis: 100% !important;
 }
