@@ -187,7 +187,7 @@ h1 {
 	font-weight: 500;
 }
 h2 {
-	font-size: 1em;
+	font-size: 1rem;
 	margin: 0;
 	margin-bottom: 0.1em;
 	line-height: 1.4em;
@@ -419,6 +419,13 @@ to {
 .bganimcont:hover .bganim3 {
 	width: 100%;
 }
+.bganimcont:hover .colorize {
+	color: #FF1A00;
+}
+.colorize {
+	transition: 2s;
+	transition-delay: 1s;
+}
 .button {
 	padding: 0.0em .5rem;
 	border: 1px solid #5c5c5c;
@@ -446,11 +453,15 @@ a.button {text-decoration:none;}
 .graybg { background-image: url('https://pedrojoaquimborges.com/wp-content/themes/pjb-2021/assets/img/noise.gif');}
 .whitebg {background-color:white;}
 .blackbg {background-color: #1A1A1A;}
+.blackbg2 {background-color: #1D1D1D;}
+
 .graytext {color: #636363;}
 .graytext a:link, .graytext a {color: #636363;}
 .gradbg1 {
 	background: linear-gradient(90deg, rgb(24, 12, 11) 0%, rgb(14, 14, 14) 100%);
 }
+.gradbg2 {
+background: linear-gradient(90deg, rgb(53, 53, 53) 0%, rgb(14, 14, 14) 100%);}
 .footer {
 	font-weight: 400;
 	font-size: 1rem;
@@ -510,6 +521,16 @@ a.orange:hover {color:#878787;}
 	position: relative;
 	filter: saturate(0);
 }
+.tracksm {
+	height: 97px;
+	width: 200vw;
+	background-size: contain;
+	background-repeat: repeat-x;
+	margin: -1px 0;
+	z-index: 98;
+	position: relative;
+	filter: saturate(0);
+}
 .track1 {
 	background-image: url('https://pedrojoaquimborges.com/wp-content/themes/pjb-2021/assets/img/tracks1.png');
 	background-position: left;
@@ -536,6 +557,7 @@ a.orange:hover {color:#878787;}
 }
 .zindtop {z-index:98;}
 .zindtop2 {z-index:99;}
+.zindback {z-index:-2;}
 .bganim {
 	position: absolute;
 	top: -80vh;
@@ -736,7 +758,6 @@ h5 {font-size:0.7em;}
 	font-size: 0.8em;
 	letter-spacing: -0.04em;
 }
-
 .track {height:80px;}
 .posttext p,.posttext ul {font-size:1rem;}
 .postimg {
