@@ -666,17 +666,19 @@ text-decoration: none;
 	border-bottom: 1px gray solid;
 }
 #ptopmenu {
-	position: fixed;
+	position: relative;
 	width: 89%;
-	z-index: 1;
+	z-index: 98;
 	background-color: white;
-	margin: 5% 5.5%;
+	margin: 0 auto;
 	padding: 3% 0.9em;
 	border: 3px solid black;
 	border-radius: 10px;
-	font-size:0.7em;
+	font-size: 0.7em;
 	font-family: 'texgyreheros-bold';
 	text-align: center;
+	top: 2em;
+	max-width: 683px;
 }
 .ptopmenufix {position:relative !important;}
 .pmainbaloon {
@@ -708,7 +710,7 @@ text-decoration: none;
 .pcirclebtn {
 	position: relative;
 	width: 140px;
-	margin: 0 31.5%;
+	margin: 0 auto;
 	text-align: center;
 	padding: 2.1em 0;
 	background-color: #9052FF;
