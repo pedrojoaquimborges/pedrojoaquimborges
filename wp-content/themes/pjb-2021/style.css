@@ -592,6 +592,7 @@ a.orange:hover {color:#878787;}
 }
 
 
+
 /*--------------------------------------------------------------
 >>> PESO:
 --------------------------------------------------------------*/
@@ -641,7 +642,12 @@ to {
 	background-color: #F1EDEA;
 	font-size: 21px;
 }
-#psize {max-width: 767.98px;margin: 0 auto;position:relative;}
+#psize {
+	max-width: 500px;
+	margin: 0 auto;
+	position:relative;
+	border:1px gray solid;
+}
 .ph1 a {
 font-size: 50px;
 font-family: 'Alegreya-ExtraBoldItalic';
@@ -662,8 +668,9 @@ text-decoration: none;
 	height: 100.1vh;
 	background-image: url('https://pedrojoaquimborges.com/wp-content/themes/pjb-2021/assets/img/pesolanding.jpg');
 	background-size: cover;
-	z-index:30;
-	border-bottom: 1px gray solid;
+	z-index: 30;
+	max-width: 500px;
+	margin: 0 auto;
 }
 #ptopmenu {
 	position: relative;
@@ -671,7 +678,7 @@ text-decoration: none;
 	z-index: 98;
 	background-color: white;
 	margin: 0 auto;
-	padding: 3% 0.9em;
+	padding: 3% 2.3em;
 	border: 3px solid black;
 	border-radius: 10px;
 	font-size: 0.7em;
@@ -680,7 +687,6 @@ text-decoration: none;
 	top: 2em;
 	max-width: 683px;
 }
-.ptopmenufix {position:relative !important;}
 .pmainbaloon {
 	position: relative;
 	width: 89%;
@@ -731,7 +737,13 @@ text-decoration: none;
 	color: lightgray;
 }
 .pmenubtn1 {
-	margin-right: 1.6em;
+	float:left;
+}
+.pmenubtn2 {
+	margin: 0 auto;
+}
+.pmenubtn3 {
+	float:right;
 }
 .ppesologo {color:#FF3300;}
 .pcirclebtn a {
@@ -790,16 +802,16 @@ text-decoration: none;
 .pfooter {
 	background-color: #262626;
 	color: white;
-	padding: 0 11%;
-	height: 47em;
-	padding-top: 6em;
+	padding: 0 3em;
 	z-index: 30;
-	position: relative;
+	/* position: relative; */
 	text-align: center;
 	text-transform: uppercase;
+	/* position: relative; */
+	max-width: 500px;
+	margin: 0 auto;
+	/* position: relative; */
 }
-
-	
 
 
 /*--------------------------------------------------------------
@@ -997,6 +1009,11 @@ h5 {font-size:0.7em;}
 	flex-basis: 100% !important;
 }
 
+/*--------------------------------------------------------------
+>>> PESO:
+--------------------------------------------------------------*/
+
+#psize {border: 0px;}
 
 
 }
