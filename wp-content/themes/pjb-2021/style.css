@@ -590,6 +590,213 @@ a.orange:hover {color:#878787;}
 .wp-block-column {
 	flex-basis: 100% !important;
 }
+
+
+/*--------------------------------------------------------------
+>>> PESO:
+--------------------------------------------------------------*/
+
+@font-face {
+  font-family: 'Alegreya-ExtraBoldItalic';
+  src: url('https://pedrojoaquimborges.com/wp-content/themes/pjb-2021/fonts/Alegreya-ExtraBoldItalic.ttf');
+}
+@font-face {
+  font-family: 'Alegreya-BoldItalic';
+  src: url('https://pedrojoaquimborges.com/wp-content/themes/pjb-2021/fonts/Alegreya-BoldItalic.ttf');
+}
+@font-face {
+  font-family: 'texgyreheros-regular';
+  src: url('https://pedrojoaquimborges.com/wp-content/themes/pjb-2021/fonts/texgyreheros-regular.otf');
+}
+@font-face {
+  font-family: 'texgyreheros-italic';
+  src: url('https://pedrojoaquimborges.com/wp-content/themes/pjb-2021/fonts/texgyreheros-italic_0.otf');
+}
+@font-face {
+  font-family: 'texgyreheros-bold';
+  font-weight: bold;
+  src: url('https://pedrojoaquimborges.com/wp-content/themes/pjb-2021/fonts/texgyreheros-bold_0.otf');
+}
+@keyframes pcirclebtn {
+from {
+	background-color: #9052FF;
+}
+
+to {
+	background-color: #BCA8DE;
+}
+}
+@keyframes pcirclebtn2 {
+from {
+	background-color: #8D8D8D;
+}
+
+to {
+	background-color: #B6B6B6;
+}
+}
+#pbody {
+	position:relative;
+	width:100%;
+	background-color: #F1EDEA;
+	font-size: 21px;
+}
+#psize {max-width: 767.98px;margin: 0 auto;position:relative;}
+.ph1 a {
+font-size: 50px;
+font-family: 'Alegreya-ExtraBoldItalic';
+position: absolute;
+top: 49vh;
+width: 100%;
+text-align: center;
+color: white;
+text-decoration: none;
+}
+.pbold1 { font-family: 'texgyreheros-bold';}
+.pitalic { font-family: 'texgyreheros-italic';}
+.pul {text-decoration:underline;}
+.psmtxt {font-size: 0.7em;line-height:1.3em;}
+#plandingtop {
+	position: relative;
+	width: 100vw;
+	height: 100.1vh;
+	background-image: url('https://pedrojoaquimborges.com/wp-content/themes/pjb-2021/assets/img/pesolanding.jpg');
+	background-size: cover;
+	z-index:30;
+	border-bottom: 1px gray solid;
+}
+#ptopmenu {
+	position: fixed;
+	width: 89%;
+	z-index: 1;
+	background-color: white;
+	margin: 5% 5.5%;
+	padding: 3% 0.9em;
+	border: 3px solid black;
+	border-radius: 10px;
+	font-size:0.7em;
+	font-family: 'texgyreheros-bold';
+	text-align: center;
+}
+.ptopmenufix {position:relative !important;}
+.pmainbaloon {
+	position: relative;
+	width: 89%;
+	margin: 5% 5.5%;
+	padding: 4.3%;
+	background-color: white;
+	border: 3px black solid;
+	font-family: 'texgyreheros-regular';
+	font-size: 1em;
+	line-height: 1.33em;
+	border-radius: 10px;
+	padding-bottom: 1.6em;
+}
+.pleftbaloon {
+	width: 81%;
+	margin-right:17.5%;
+	border-radius: 12px 12px 12px 2px;
+	}
+.prightbaloon {
+	width: 81%;
+	margin-left:14%;
+	margin-right: 9%;
+	border-radius: 12px 12px 2px 12px;
+	text-align: right;
+	}
+.paudioplayer {width: 100%;}
+.pcirclebtn {
+	position: relative;
+	width: 140px;
+	margin: 0 31.5%;
+	text-align: center;
+	padding: 2.1em 0;
+	background-color: #9052FF;
+	color: white;
+	font-family: 'Alegreya-BoldItalic';
+	font-size: 1em;
+	border-radius: 50%;
+	border: 2px black solid;
+	line-height: 1em;
+	height: 140px;
+	animation: pcirclebtn 3s infinite 0s ease-in-out alternate;
+}
+.pcirclebtn2 {background-color: #9C9C9C; animation: pcirclebtn2 2s infinite 0s ease-in-out alternate;}
+#ptopmenu a {
+	text-decoration: none;
+}
+#ptopmenu a:active {
+	color: lightgray;
+}
+.pmenubtn1 {
+	margin-right: 1.6em;
+}
+.ppesologo {color:#FF3300;}
+.pcirclebtn a {
+	text-decoration: none;
+	color:white;
+}
+
+.poverlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 99;
+}
+.poverlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.ppopup {
+  margin: 10vh auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 93%;
+  position: relative;
+  transition: all 1s ease-in-out;
+  z-index: 99;
+  max-height: 85vh;
+  overflow: scroll;
+}
+.ppopup .pclose {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.ppopup h2 {
+  margin-top: 0;
+  color: #333;
+}
+.ppopup .pcontent {
+  max-height: 30%;
+  overflow: auto;
+  margin:1.6em 0;
+}
+.pfooter {
+	background-color: #262626;
+	color: white;
+	padding: 0 11%;
+	height: 47em;
+	padding-top: 6em;
+	z-index: 30;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+}
+
 	
 
 
