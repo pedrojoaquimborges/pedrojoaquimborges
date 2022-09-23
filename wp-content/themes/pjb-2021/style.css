@@ -678,7 +678,7 @@ text-decoration: none;
 	z-index: 98;
 	background-color: white;
 	margin: 0 auto;
-	padding: 3% 2.3em;
+	padding: 3% 1em;
 	border: 3px solid black;
 	border-radius: 10px;
 	font-size: 0.7em;
@@ -686,6 +686,8 @@ text-decoration: none;
 	text-align: center;
 	top: 2em;
 	max-width: 683px;
+	text-transform: uppercase;
+	letter-spacing: -0.02em;
 }
 .pmainbaloon {
 	position: relative;
