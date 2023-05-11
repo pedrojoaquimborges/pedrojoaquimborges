@@ -251,6 +251,9 @@ h6 {
 	padding-top: 1.6em;
 	margin-bottom: 0.9em;
 }
+.wp-element-caption {
+    font-size: 14px !important;
+}
 .posttopcont {
 	border-bottom: #969696 1px solid;
 	height:100vh;
@@ -458,7 +461,7 @@ a.button {text-decoration:none;}
 .graytext {color: #636363;}
 .graytext a:link, .graytext a {color: #636363;}
 .gradbg1 {
-	background: linear-gradient(90deg, rgb(24, 12, 11) 0%, rgb(14, 14, 14) 100%);
+	background-color: #0c0c0c;
 }
 .gradbg2 {
 background: linear-gradient(90deg, rgb(53, 53, 53) 0%, rgb(14, 14, 14) 100%);}
