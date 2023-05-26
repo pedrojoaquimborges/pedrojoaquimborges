@@ -78,7 +78,8 @@ a {color: #000000;}
 	position: absolute;
 	border-bottom: #b9b9b9 1px solid;
 }
-.topspacer {height:13.5rem}
+.topspacer {height:28vh}
+.bottomspacer {height:29vh}
 .headermargin {padding-left:3.3rem;}
 .logo {
 	font-size: 0.9em;
