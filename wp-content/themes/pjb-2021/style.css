@@ -28,6 +28,14 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
   src: url('https://pedrojoaquimborges.com/wp-content/themes/pjb-2021/fonts/bananagrotesk-semibold-webfont.woff2') format('woff2');
 }
 
+
+
+/*--------------------------------------------------------------
+>>> WEB DESKTOP:
+--------------------------------------------------------------*/
+
+html {font-size:16px;}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -41,7 +49,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
-    overflow-x: hidden;;
+    overflow-x: hidden;
 }
 ul {
 	list-style-type: circle;
@@ -78,12 +86,12 @@ a {color: #000000;}
 	position: absolute;
 	border-bottom: #b9b9b9 1px solid;
 }
-.topspacer {height:28vh}
-.bottomspacer {height:29vh}
+.topspacer {height:32vh}
+.bottomspacer {height:31vh}
 .headermargin {padding-left:3.3rem;}
 .logo {
-	font-size: 0.75em;
-	letter-spacing: -0.04em;
+	font-size: 0.7em;
+	letter-spacing: -0.02em;
 	transition: 0.5s;
 	font-weight: 600;
 	line-height: 1em;
@@ -112,7 +120,7 @@ a {color: #000000;}
 	line-height: 1rem;
 }
 .feattext {
-	font-size: calc(5rem + 1.875vw);
+	font-size: 6vw;
 	z-index: 80;
 	cursor: default;
 	letter-spacing: -0.06em;
@@ -140,7 +148,7 @@ a {color: #000000;}
 	line-height: 1.45em;
 	transition: 0.2s;
 	width: 27em;
-	font-size: calc(1rem + 0.21vw);
+	font-size: calc(1em + 0.2vw);
 	letter-spacing: -0.06em;
 	color: black;
 	opacity: 0.9;
@@ -151,7 +159,7 @@ a {color: #000000;}
 	line-height: 1.6em;
 	transition: 0.2s;
 	width: 27em;
-	font-size: calc(1rem + 0.21vw);
+	font-size: calc(1em + 0.21vw);
 	letter-spacing: -0.06em;
 	color: black;
 	opacity: 0.9;
@@ -323,7 +331,9 @@ h6 {
   height: 100%;
   border: 0;
 }
-
+.gridimg {
+	width: 100%;
+}
 .gridtext {
 	font-weight: 500;
 	font-size: 0.9rem;
@@ -398,7 +408,7 @@ h6 {
 .bganim3 {
 	bottom: 0.05em;
 	left: 0;
-	border-bottom: 2px #7d7d7d solid;
+	border-bottom: 0.125rem #7d7d7d solid;
 	width: 0%;
 	height: 1em;
 	transition: 2s;
@@ -437,7 +447,7 @@ to {
 	border-radius: 1em;
 	font-weight: 400;
 	text-transform: uppercase;
-	font-size: calc(12px + 0.158vw);
+	font-size: 1rem;
 	letter-spacing: -0.03em;
 }
 a.button {text-decoration:none;}
@@ -839,11 +849,14 @@ text-decoration: none;
 }
 
 
+
 /*--------------------------------------------------------------
 >>> MOBILE:
 --------------------------------------------------------------*/
 
-@media (max-width: 767.98px) { 
+@media (max-width: 677px) {
+
+body {font-size:1rem;}
 
 .header {
 	left: 0;
@@ -1034,13 +1047,20 @@ h5 {font-size:0.7em;}
 	flex-basis: 100% !important;
 }
 
-/*--------------------------------------------------------------
->>> PESO:
---------------------------------------------------------------*/
-
 #psize {border: 0px;}
-
 
 }
 
 
+
+@media (min-width: 1921px) and (max-width: 2560px) {
+
+html {font-size:24px;}
+
+}
+
+@media (min-width: 2561px) {
+
+html {font-size:35.2px;}
+
+}
