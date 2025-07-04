@@ -224,6 +224,11 @@ h6 {
 	letter-spacing: -0.01em;
 	font-weight: 700;
 }
+.p0 {
+	font-size: calc(0.8rem);
+	letter-spacing: -0.03em;
+	text-transform: uppercase;
+}
 .p1 {
 	font-size: calc(1rem + 0.209vw);
 	letter-spacing: -0.03em;
