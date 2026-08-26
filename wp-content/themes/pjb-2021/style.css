@@ -507,9 +507,10 @@ footer a:hover {color: gray;}
 }
 .vh-25 {height:25vh;}
 .comment { display:none; }
-.bordertop {border-top:#969696 1px solid;}
+.bordertop {border-top:#a8a8a8 1px solid;}
+.bordertoplt {border-top:#b1b1b1 1px solid;}
 .bordertop-md {border-top:#969696 1px solid;}
-.borderbottom {border-bottom:#969696 1px solid;}
+.borderbottom {border-bottom:#a8a8a8 1px solid;}
 .fw-600 {font-weight: 600;}
 .fw-700 {font-weight: 600;}
 .fs-7 {font-size: 0.8rem;}
@@ -533,7 +534,7 @@ a.orange:hover {color:#878787;}
 .ltsp-sm {letter-spacing:-0.04em;}
 .trackcont {background-color: #f5f5f5;}
 .track {
-	height: 145.5px;
+	height: 120px;
 	width: 200vw;
 	background-size: contain;
 	background-repeat: repeat-x;
@@ -853,6 +854,42 @@ text-decoration: none;
 	max-width: 440px;
 	margin: 0 auto;
 }
+
+.spacer-bar {
+	width: 100vw;
+	height: 25px;
+	background-color: #f9f9f9;
+	color: #919191;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: -0.03em;
+	/* display: none; */
+}
+.scroll-content {
+      white-space: nowrap;
+      width: max-content;
+      /* Smooth horizontal animation that alternates direction */
+      animation: scrollBounce 40s linear infinite alternate;
+    }
+
+.scrolllistitem {
+	margin-right: 0.75em !important;
+	}
+
+@keyframes scrollBounce {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        /* Translates left until the right edge reaches the right side of the screen */
+        transform: translateX(calc(100vw - 100%));
+      }
+    }
+
+
 
 
 
