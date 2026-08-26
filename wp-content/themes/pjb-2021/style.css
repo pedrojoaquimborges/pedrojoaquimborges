@@ -870,9 +870,8 @@ text-decoration: none;
 }
 .scroll-content {
       white-space: nowrap;
-      width: max-content;
       /* Smooth horizontal animation that alternates direction */
-      animation: scrollBounce 40s linear infinite alternate;
+      animation: scrollBounce 80s linear infinite alternate;
     }
 
 .scrolllistitem {
