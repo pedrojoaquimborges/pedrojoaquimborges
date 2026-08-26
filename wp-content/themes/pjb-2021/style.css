@@ -1092,6 +1092,9 @@ h5 {font-size:0.7em;}
 
 #psize {border: 0px;}
 
+.spacer-bar {
+  height: 19px;
+  background-color: #f6f6f6;
 }
 
 
