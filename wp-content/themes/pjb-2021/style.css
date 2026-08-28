@@ -871,7 +871,7 @@ text-decoration: none;
 .scroll-content {
       white-space: nowrap;
       /* Smooth horizontal animation that alternates direction */
-      animation: scrollBounce 80s linear infinite alternate;
+      animation: scrollBounce 120s linear infinite alternate;
     }
 
 .scrolllistitem {
@@ -1032,6 +1032,7 @@ h5 {font-size:0.7em;}
 .p2 {font-size: 1.2rem; line-height:1.45em;}
 .p3 {font-size:1.5rem;}
 .bordertop-md {border-top: black 0px solid;}
+.bordertoplt {border-top: #a4a4a4 1px solid;}
 .md {display:none;}
 .shopprod {font-size: 1rem;}
 .p5 {
@@ -1093,8 +1094,10 @@ h5 {font-size:0.7em;}
 
 .spacer-bar {
   height: 19px;
-  background-color: #f6f6f6;
+  background-color: #fff;
+  color: #7b7b7b;
 }
+.scroll-content {animation: scrollBounce 140s linear infinite alternate;}
 
 
 
